@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-div {
+    @apply relative w-[230px] mob-card:w-[170px] flex flex-col justify-between rounded-3xl border border-gray-300 cursor-pointer hover:scale-105 duration-300
+}

@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       screens: {
-        'navbar': {max: '1000px'}
+        'navbar-open': {min: '1070px'},
+        'navbar-closed': {max: '1070px'},
+        'footer-closed': {max: '700px'},
+        'card-slider-open': {max: '700px'},
+        'mob-card': {max: '700px'},
       }
     },
   },
